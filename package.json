@@ -1,0 +1,56 @@
+{
+  "name": "Barber",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-native-calendars": "^1.203.0",
+    "react-native-camera-kit": "^8.0.0",
+    "react-native-chart-kit": "^3.0.0",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-date-picker": "^2.3.0",
+    "react-native-dropdown": "0.0.6",
+    "react-native-elements": "^1.1.0",
+    "react-native-fbsdk": "^0.10.1",
+    "react-native-firebase": "^5.3.1",
+    "react-native-fs": "^2.13.3",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-google-places-autocomplete": "^1.3.9",
+    "react-native-google-signin": "^2.0.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-keycode": "^1.0.5",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-modal": "^10.0.0",
+    "react-native-popup-dialog": "^0.18.2",
+    "react-native-preference": "^1.1.0",
+    "react-native-push-notification-popup": "^1.3.0",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-svg": "^9.5.1",
+    "react-native-vector-icons": "^6.3.0",
+    "react-native-view-shot": "^2.6.0",
+    "react-navigation": "^3.3.2",
+    "tipsi-stripe": "^7.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

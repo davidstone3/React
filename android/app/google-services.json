@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "400730111299",
+    "firebase_url": "https://clypr-barber.firebaseio.com",
+    "project_id": "clypr-barber",
+    "storage_bucket": "clypr-barber.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400730111299:android:461dafe6bf72d65b",
+        "android_client_info": {
+          "package_name": "com.barber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400730111299-dg9lmdg8s8dms10b8neehi79otf0fcvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.barber",
+            "certificate_hash": "b786f43e02f7a3bbb974e53137fb775e8a40cbb1"
+          }
+        },
+        {
+          "client_id": "400730111299-f3mtlhhkil19m0i8p81nj20u4fu1pngh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk18nz1pefHm8AquBynUax63TS1qwwAJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400730111299-glgocb7ma1mackclbdugq2jqgj1sg5r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
