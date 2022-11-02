@@ -14,7 +14,7 @@
   "dependencies": {
     "moment": "^2.24.0",
     "react": "16.6.3",
-    "react-native": "0.58.6",
+    "react-native": "0.70.4",
     "react-native-calendars": "^1.203.0",
     "react-native-camera-kit": "^8.0.0",
     "react-native-chart-kit": "^3.0.0",
