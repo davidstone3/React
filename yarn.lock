@@ -5025,15 +5025,15 @@ qr.js@0.0.0:
   resolved "https://registry.yarnpkg.com/qr.js/-/qr.js-0.0.0.tgz#cace86386f59a0db8050fa90d9b6b0e88a1e364f"
   integrity sha1-ys6GOG9ZoNuAUPqQ2baw6IoeNk8=
 
-qs@^5.2.0:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-5.2.1.tgz#801fee030e0b9450d6385adc48a4cc55b44aedfc"
-  integrity sha1-gB/uAw4LlFDWOFrcSKTMVbRK7fw=
-
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+qs@~6.9.1:
+  version "6.9.7"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.7.tgz#4610846871485e1e048f44ae3b94033f0e675afe"
+  integrity sha512-IhMFgUmuNpyRfxA90umL7ByLlgRXu6tIfKPpF5TmcfRLlLCckfP/g3IQmju6jjpu+Hh8rA+2p6A27ZSPOOHdKw==
 
 query-string@^6.4.2:
   version "6.8.2"
@@ -5191,14 +5191,14 @@ react-native-gesture-handler@^1.1.0:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-google-places-autocomplete@^1.3.9:
-  version "1.3.9"
-  resolved "https://registry.yarnpkg.com/react-native-google-places-autocomplete/-/react-native-google-places-autocomplete-1.3.9.tgz#34c2e8b51df40ecb55ef3ccf57caba4c89ff9b56"
-  integrity sha512-bMZRYLpkuhvWE+UYmONw5fsEBM9cyJcSBESHTCKT8ZIydi+HKEM4rKZ+qLvgeHMPD2wpWRNwMJFDhR+ja/datQ==
+react-native-google-places-autocomplete@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/react-native-google-places-autocomplete/-/react-native-google-places-autocomplete-1.9.0.tgz#d88bdbb78ca78d5223e1fdf8701d75625f2a2833"
+  integrity sha512-gYWwI6ZeCxW8zkknMPcQ8oSGe5vckNFagIrGx9Fpqf4j/CAoxAYm7gHrHvipTLLKtEIhwlK3gb4VntyQg4bwmw==
   dependencies:
     lodash.debounce "^4.0.8"
     prop-types "^15.5.10"
-    qs "^5.2.0"
+    qs "~6.9.1"
 
 react-native-google-signin@^2.0.0:
   version "2.0.0"
@@ -5256,6 +5256,13 @@ react-native-preference@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-native-preference/-/react-native-preference-1.1.0.tgz#58e01f00e4a35a93a1e207b46349038732192478"
   integrity sha512-l5QbMgtNqJyvy5FpEaosOGib3vNLW6dFoqdLQ02gtjxv0q+RmEWCbPkXxGRr8SfacGOeKruuneIL7WGqEGmRmw==
+
+react-native-push-notification-popup@^1.3.0:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-push-notification-popup/-/react-native-push-notification-popup-1.6.1.tgz#db662a5b7da93471389a97210131de00aa58f118"
+  integrity sha512-inbAOr4H9BH0jKHOgxX8qn90WrCVfcL8M7Zbji5o0RdUyAohGAGm5yb+8vfkgpt/qDu8Not7HPpei85mzbHGzg==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-native-qrcode@^0.2.7:
   version "0.2.7"
